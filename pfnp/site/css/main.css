@@ -1,0 +1,104 @@
+
+
+/*Author: Micah Cohen
+
+CSS declarations...look at all background options (no repeat)*/
+
+body{
+	background: #333 url("../images/img-lights.jpg") no-repeat ;
+	color: #ffffff;
+
+	-moz-background-size: cover;
+	-0-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+h1{
+	font-size: 500%;
+	color: white;
+	margin: 0px 50px 0px 0px;
+}
+
+a{
+	color: #50AEF1;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+#email {
+	color: #09b08f;
+}
+#container{
+	background: #000;
+	width: 1650px;
+	padding: 10px;
+/*center container*/
+	margin: 0px 70px 0px 0px;
+}
+.pie{
+	color:#eb0258;
+}
+.head-sub{
+	background: #eb0258;
+}
+
+.head-important{
+	background: #eb0258;
+
+}
+.new {
+	color: #bda400;
+	font-size: 25px;
+}
+
+#head-badass{
+	background: #eb0258;
+	padding: 10px 10px 10px 10px;
+
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 10px
+}
+
+
+h3{
+	color: white;
+}
+
+.whatup {
+	list-style: none;
+	padding: 0;
+
+}
+
+.intro {
+	list-style: none;
+	padding: 0;
+
+}
+#link-money{
+	list-style: none;
+	padding: 0;
+}
+
+
+#ho{
+	color: #96082B;
+}
+
+
+#intro li{
+	display: inline-block;
+}
+#list-social li{
+	display: inline-block;
+}
+/*Notes on hierarchy
+tag styles 
+. class styles 
+# id  overrides class
+*/
